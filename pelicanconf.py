@@ -10,7 +10,11 @@ SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 OUTPUT_PATH = 'docs/'
-STATIC_PATHS = ['files']
+STATIC_PATHS = ['static']
+
+EXTRA_PATH_METADATA = {
+        'static/CNAME': {'path': 'CNAME'},
+}
 
 ARTICLE_PATHS = ['articles']
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}.html'
