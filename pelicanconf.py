@@ -18,7 +18,7 @@ EXTRA_PATH_METADATA = {
 
 ARTICLE_PATHS = ['articles']
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}.html'
-ARTICLE_URL = '{date:%Y}/{slug}'
+ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}'
 
 AUTHOR_URL = 'author/{slug}'
 PAGE_URL = 'pages/{slug}'
